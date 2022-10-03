@@ -1,12 +1,12 @@
 #
-# OMNeT++/OMNEST Makefile for gradys-simulations
+# OMNeT++/OMNEST Makefile for unmanned_vehicle_network_simulation
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep -O out -KINET_PROJ=../inet -DINET_IMPORT -I. -I$$\(INET_PROJ\)/src -L$$\(INET_PROJ\)/src -lINET$$\(D\)
+#  opp_makemake -f --deep -O out -KINET_PROJ=D:/net_sim/omnetpp-5.6.2/inet4 -DINET_IMPORT -I. -I$$\(INET_PROJ\)/src -L$$\(INET_PROJ\)/src -lINET$$\(D\)
 #
 
 # Name of target to be created (-o option)
-TARGET = gradys-simulations$(D)$(EXE_SUFFIX)
+TARGET = unmanned_vehicle_network_simulation$(D)$(EXE_SUFFIX)
 TARGET_DIR = .
 
 # User interface (uncomment one) (-u option)
@@ -85,7 +85,7 @@ MSGFILES = \
 SMFILES =
 
 # Other makefile variables (-K)
-INET_PROJ=../inet
+INET_PROJ=D:/net_sim/omnetpp-5.6.2/inet4
 
 #------------------------------------------------------------------------------
 
